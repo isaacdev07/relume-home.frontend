@@ -1,8 +1,38 @@
-.caixa {
-    padding: 200px 0px;
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    background-color: rgb(221, 0, 44);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+header{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 310px;
+    border-bottom: 1px solid #000;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
 
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 132px;
+    height: 40px;
 }
